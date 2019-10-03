@@ -9,5 +9,5 @@ I decided to use a for loop to accomplish this task because I feel it is the mos
 
 
 ## Solution
-<a href="../assets/challenge01-whiteboard.jpg">White Board Image </a>
+![Whiteboard Image](../assets/challenge01-whiteboard.jpg)
 
