@@ -1,7 +1,7 @@
 'use strict';
 
 const reverseArray = (arr) => {
-  newArray = [];
+  const newArray = [];
   let decrementingIndex = arr.length - 1;
 
   for (let i = 0; i < arr.length; i++) {
@@ -10,7 +10,7 @@ const reverseArray = (arr) => {
   }
 
   return newArray;
-}
+};
 
 //Uncomment code below to test
 // console.log(reverseArray([1, 2, 3, 4, 5, 6]));
