@@ -5,7 +5,7 @@ const reverseArray = (arr) => {
   let decrementingIndex = arr.length - 1;
 
   for (let i = 0; i < arr.length; i++) {
-    newArray[i] = arr[decrementingIndex]
+    newArray[i] = arr[decrementingIndex];
     decrementingIndex--;
   }
 
@@ -13,7 +13,7 @@ const reverseArray = (arr) => {
 };
 
 //Uncomment code below to test
-// console.log(reverseArray([1, 2, 3, 4, 5, 6]));
-// console.log(reverseArray([89, 2354, 3546, 23, 10, -923, 823, -12]	));
+console.log(reverseArray([1, 2, 3, 4, 5, 6]));
+console.log(reverseArray([89, 2354, 3546, 23, 10, -923, 823, -12]	));
 
 
