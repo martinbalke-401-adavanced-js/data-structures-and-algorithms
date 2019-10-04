@@ -5,3 +5,6 @@
 
 ### Array-Reverse
 [Read me Link](./array-reverse/README.md)
+
+### Array-Shift
+[Read me Link](./array-shift/README.md)
