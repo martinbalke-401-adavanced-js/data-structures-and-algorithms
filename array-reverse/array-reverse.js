@@ -1,5 +1,4 @@
 'use strict';
-
 const reverseArray = (arr) => {
   const newArray = [];
   let decrementingIndex = arr.length - 1;
