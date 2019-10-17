@@ -6,7 +6,9 @@ This challenge was to build a singly linked list with the methods insert, includ
 
 The method insert needs to be able to insert a node at the begining of the linked list with the specified value. The method includes needs to be able to check each nodes data property and return true if a given value is included in the linked list or false if it is not. The method toString needs to a string representing all of the values inside of the linked list.
 
+## Space Time
 
+I think the Big 0 and space here are 0(n) 
 
 
 ## API
