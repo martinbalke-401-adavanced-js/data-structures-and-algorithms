@@ -69,6 +69,11 @@ class LinkedList{
     //Variables to keep track of the current node as well as the previous node
     let current = this.head;
     let previous;
+
+    //Check to see if the head matches the val and insert if it does
+    if(current.data === val) return this.insert(newVal);
+
+      
     //Iterate over the linked list looking for the value
     while(current.next !== null){
       if(current.data === val){
@@ -84,6 +89,7 @@ class LinkedList{
         previous.next = newNode;
         return newNode.next = current;
       }
+      return 'Value not present';
     }
   }
   //Insert a node after a found value
@@ -106,9 +112,9 @@ class LinkedList{
         current.next = newNode;
         return newNode.next = following;
       }
+      return 'Value not present';
     }
   }
 }
-
 
 module.exports = LinkedList;
