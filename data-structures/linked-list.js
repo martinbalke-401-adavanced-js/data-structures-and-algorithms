@@ -83,13 +83,11 @@ class LinkedList{
       //If the value is not found set the previous node to this node and current to the next
       previous = current;
       current = current.next;
-
-      //Checking the last node in the list for the value
-      if (current.data === val) {
-        previous.next = newNode;
-        return newNode.next = current;
-      }
-      return 'Value not present';
+    }
+    //Checking the last node in the list for the value
+    if (current.data === val) {
+      previous.next = newNode;
+      return newNode.next = current;
     }
   }
   //Insert a node after a found value
@@ -107,12 +105,11 @@ class LinkedList{
       }
       current = current.next;
       following = following.next;
-      //Checking the last node
-      if (current.data === val) {
-        current.next = newNode;
-        return newNode.next = following;
-      }
-      return 'Value not present';
+    }
+    //Checking the last node
+    if (current.data === val) {
+      current.next = newNode;
+      return newNode.next = null;
     }
   }
 }
