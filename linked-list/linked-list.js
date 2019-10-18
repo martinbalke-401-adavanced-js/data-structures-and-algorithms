@@ -63,3 +63,5 @@ class LinkedList {
     return current.next = newNode;
   }
 }
+
+module.exports = LinkedList;
