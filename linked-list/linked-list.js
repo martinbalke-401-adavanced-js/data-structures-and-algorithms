@@ -49,19 +49,7 @@ class LinkedList {
     //Add the last nodes data to the string
     return string += current.data.toString();
   }
-  //Add a node to the end of the list
-  append(val) {
-    let newNode = new Node(val);
-    //If there is no head node this will make a head
-    if (!this.head) return this.head = newNode;
-    let current = this.head;
-    //Iterate over the linked list until the end
-    while (current.next !== null) {
-      current = current.next;
-    }
-    //Set the next of the last node as this new node
-    return current.next = newNode;
-  }
+
 }
 
 module.exports = LinkedList;

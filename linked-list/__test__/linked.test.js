@@ -11,11 +11,11 @@ describe('Linked list functionality testing', () => {
   });
 
   it('Can properly insert in to a linked list', () => {
-    linkedList.insert(5);
-    expect(linkedList.head.data).toBe(5);
+    linkedList.insert(6);
+    expect(linkedList.head.data).toBe(6);
   });
   it('The head properly points to the next node when there are two & new nodes are properly inserted', () => {
-    linkedList.insert(6);
+    linkedList.insert(5);
     expect(linkedList.head.next.data).toBe(5);
   });
 
@@ -26,7 +26,7 @@ describe('Linked list functionality testing', () => {
     expect(linkedList.includes(8)).toBeFalsy();
   });
   it('Properly returns a string that is all of the values in the list', () => {
-    expect(linkedList.toString()).toBe('65');
+    expect(linkedList.toString()).toBe('56');
   });
 
 });
