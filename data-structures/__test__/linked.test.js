@@ -65,4 +65,24 @@ describe('Linked list functionality testing', () => {
     linkedList.insertBefore(2, 1);
     expect(linkedList.toString()).toBe('765454312');
   });
+  
+  let linked = new LinkedList();
+  it('Where the linked list is of a size 1', () => {
+    linked.insert(4);
+    expect(linked.kthFromEnd(0)).toBe('4');
+  });
+  it('Where k is greater than the length of the linked list', () => {
+    expect(linked.kthFromEnd(2)).toBe('Exception');
+  });
+  it('Where k and the length of the list are the same', () => {
+    linked.insert(5);
+    linked.insert(6);
+    expect(linked.kthFromEnd(2)).toBe('6');
+  });
+  it('Where k is not a positive integer', () => {
+    expect(linked.kthFromEnd(-2)).toBe('Exception');
+  });
+  it('“Happy Path” where k is not at the end, but somewhere in the middle of the linked list', () => {
+    expect(linked.kthFromEnd(1)).toBe('5');
+  });
 });

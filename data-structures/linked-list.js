@@ -112,6 +112,19 @@ class LinkedList{
       return newNode.next = null;
     }
   }
+
+  kthFromEnd(k) {
+    //Use the to string method to gather the values of each node 
+    //then turn it in to an arry
+    let valueArray = this.toString().split('');
+    //Return exception based upon the value of K being too large or too small
+    if(k > valueArray.length -1 || k < 0) return 'Exception';
+    let indexFromEnd = valueArray.length - 1 - k;
+    //Return the value at the 'kth' index
+    return valueArray[indexFromEnd];
+  }
 }
+
+
 
 module.exports = LinkedList;
