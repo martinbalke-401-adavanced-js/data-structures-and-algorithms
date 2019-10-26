@@ -124,6 +124,24 @@ class LinkedList{
     return valueArray[indexFromEnd];
   }
 
+  merge(ll1, ll2) {
+    let current = ll1.head;
+    let current2 = ll2.head;
+    const newLl = new LinkedList();
+    newLl.insert(current);
+    newLl.insert(current2);
+    while(current.next !== null || current2.next !== null){
+      if(current){
+        current = current.next;
+        newLl.append(current);
+      }
+      if (current2) {
+        current = current.next;
+        newLl.append(current);
+      }
+    }
+    return newLl;
+  }
   
 }
 
