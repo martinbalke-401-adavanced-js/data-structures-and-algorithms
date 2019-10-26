@@ -123,27 +123,40 @@ class LinkedList{
     //Return the value at the 'kth' index
     return valueArray[indexFromEnd];
   }
-
-  merge(ll1, ll2) {
-    let current = ll1.head;
-    let current2 = ll2.head;
-    const newLl = new LinkedList();
-    newLl.insert(current);
-    newLl.insert(current2);
-    while(current.next !== null || current2.next !== null){
-      if(current){
-        current = current.next;
-        newLl.append(current);
-      }
-      if (current2) {
-        current = current.next;
-        newLl.append(current);
-      }
-    }
-    return newLl;
-  }
   
 }
+
+const merge = (ll1, ll2) => {
+  let current = ll1.head;
+  let current2 = ll2.head;
+  const newLl = new LinkedList();
+  newLl.insert(current.data);
+  newLl.append(current2.data);
+  while (current.next !== null || current2.next !== null) {
+    if (current.next) {
+      current = current.next;
+      newLl.append(current.data);
+    }
+    if (current2.next) {
+      current2 = current2.next;
+      newLl.append(current2.data);
+    }
+  }
+  return newLl;
+};
+
+const linked1 = new LinkedList();
+const linked2 = new LinkedList();
+linked1.append(1);
+linked2.append(3);
+linked2.append(3);
+linked2.append(3);
+linked2.append(3);
+
+
+let newLL = merge(linked1,linked2);
+
+console.log(newLL.toString());
 
 
 
