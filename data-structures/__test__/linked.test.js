@@ -86,3 +86,34 @@ describe('Linked list functionality testing', () => {
     expect(linked.kthFromEnd(1)).toBe('5');
   });
 });
+
+describe('merge function testing', () => {
+  let ll1 = new LinkedList();
+  let ll2 = new LinkedList();
+  ll1.append(1);
+
+  it('Properly returns an error when one list is null', () => {
+    try {
+      ll1.merge(ll1,ll2);
+    } catch (error) {
+      expect(error).toBe('Arguments must not be null');
+    }
+  });
+  it('Works when the lists are both of length 1', () => {
+    ll2.append(2);
+    let newLl = ll1.merge(ll1, ll2);
+    expect(newLl.toString()).toBe('12');
+  });
+  it('Works when the lists are the same size', () => {
+    ll1.append(3);
+    ll2.append(4);
+    let newLl = ll1.merge(ll1, ll2);
+    expect(newLl.toString()).toBe('1234');
+  });
+  it('Works when one list is shorter than the other', () => {
+    ll2.append(5);
+    let newLl = ll1.merge(ll1, ll2);
+    expect(newLl.toString()).toBe('12345');
+  });
+
+});
