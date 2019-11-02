@@ -8,3 +8,9 @@
 
 ### Array-Shift
 [Read me Link](./array-shift/README.md)  
+
+### Binary-Search
+[Read me Link](./binary-search/README.md)  
+
+### Linked-List
+[Read me Link](./linked-list/README.md)  
