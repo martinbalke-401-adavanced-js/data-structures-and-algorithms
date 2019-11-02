@@ -16,7 +16,7 @@ describe('Linked list functionality testing', () => {
   });
   it('The head properly points to the next node when there are two & new nodes are properly inserted', () => {
     linkedList.insert(5);
-    expect(linkedList.head.next.data).toBe(5);
+    expect(linkedList.head.next.data).toBe(6);
   });
 
   it('Will return true when a value is inside of the linked list', () => {
