@@ -4,19 +4,22 @@
 ## Author Martin Balke
 
 ### Array-Reverse
-[Read me Link](./array-reverse/README.md)
+[Readme Link](./array-reverse/README.md)
 
 ### Array-Shift
-[Read me Link](./array-shift/README.md)  
+[Readme Link](./array-shift/README.md)  
 
 ### Binary-Search
-[Read me Link](./binary-search/README.md)  
+[Readme Link](./binary-search/README.md)  
 
 ### Linked-List
-[Read me Link](./linked-list/README.md)  
+[Readme Link](./linked-list/README.md)  
 
 ### Linked-List-2
-[Read me Link](./data-structures/README.md)  
+[Readme Link](./data-structures/README.md)  
 
 ### Stacks-And-Queues
 [Readme Link](./stacksAndQueues/README.md)
+
+### QueueWithStacks
+[Readme Link](./queueWithStacks/README.md)
