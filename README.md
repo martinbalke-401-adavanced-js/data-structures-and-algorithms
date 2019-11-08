@@ -23,3 +23,6 @@
 
 ### QueueWithStacks
 [Readme Link](./queueWithStacks/README.md)
+
+### Animal Shelter
+[Readme Link](./fifoAnimalShelter/README.md)

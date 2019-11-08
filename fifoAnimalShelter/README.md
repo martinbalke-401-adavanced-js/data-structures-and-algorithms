@@ -2,19 +2,22 @@
 
 ## Links
 
--   Link to Pull Request
--   Link to Travis
+-   [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/12)
+-   [Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
 
-<!-- Short summary or background information -->
 
 ## Challenge
 
-<!-- Description of the challenge -->
+Create a queue that accepts two classes Dog and Cat. Each of these classes needs to have a name, and print property. Your animal shelter queue class needs to have two methods Enqueue which allows you to add a dog or cat to the animal shelter and Dequeue which removes a dog in a FIFO approach
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Enqueue is Big O of O(1) because you are only ever adding to the rear of the queue which is saved as a variable
+
+Dequeue is worst case scenario Big O of O(n) because you could have an infinite animal shelter queue with only 1 cat or dog at the end and have to traverse the full list to find them
 
 ## API
 
-<!-- Description of each method publicly available to your Stack and Queue-->
+`Enqueue`(animal) <- accepts a valid animal node and returns the added animal
+
+`Dequeue`(pref) <- Pops a node from the queue based on preferance in a FIFO manner
