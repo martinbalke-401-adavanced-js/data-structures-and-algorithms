@@ -78,16 +78,9 @@ class AnimalShelter {
   
 
 }
-let queue = new AnimalShelter();
-let jam = new Cat('Jam');
-let kitty = new Cat('Kitty');
-let rufus = new Dog('Rufus');
 
-let arr = [jam, kitty, rufus];
-arr.forEach( (animal) => queue.enqueue(animal));
-
-
-console.log(queue.dequeue('Dog'));
-console.log(queue);
-
-module.exports = {};
+module.exports = {
+  Cat,
+  Dog,
+  AnimalShelter,
+};
