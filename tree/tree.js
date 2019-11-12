@@ -9,40 +9,49 @@ class Node {
 }
 
 class BinaryTree {
-  constructor(){
-    this.root = null;
+  constructor(value){
+    this.root = new Node(value);
+    this.values = [];
   }
 
-  preOrder() {
-    let values = [];
-
-    return values;
+  preOrder(root) {
+    this.values.push(root);
+    if(root.left !== null) this.preOrder(root.left);
+    if(root.right !== null) this.preOrder(root.right);
+    console.log(this.values);
   }
 
-  inOrder() {
-    let values = [];
-
-    return values;
+  inOrder(root) {
+    if(root.left !== null) this.inOrder(root.left);
+    this.values.push(root);
+    if(root.right !== null) this.inOrder(root.right);
+    console.log(this.values);
   }
 
-  postOrder() {
-    let values = [];
-
-    return values;
+  postOrder(root) {
+    if(root.left !== null) this.postOrder(root.left);
+    if(root.right !== null) this.postOrder(root.right);
+    this.values.push(root);
+    console.log(this.values);
   }
 }
 
 class BinarySearchTree extends BinaryTree{
-  constructor(){
-    super();
+  constructor(value){
+    super(value);
   }
-  add(value) {
-    let node = new Node(value);
-    console.log(node);
+  add(root, value) {
+    if(root.value < value && !root.right) return root.right = new Node(value);
+    if(root.value > value && !root.left) return root.left = new Node(value);
+    if(root.value < value) this.add(root.right, value);
+    if(root.value > value) this.add(root.left, value);
 
   }
-  contains(value){
-
+  contains(root, value){
+    if(root.value === value) return true;
+    if(root.value < value && root.right) this.contains(root.right, value);
+    if(root.value > value && root.left) this.contains(root.left, value);
+    return false;
   }
 }
 
