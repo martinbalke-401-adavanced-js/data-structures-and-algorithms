@@ -2,23 +2,20 @@
 
 ## Links
 
--   Link to Pull Request
--   Link to Travis
+-   [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/14)
+-   [TRAVIS](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
 
-<!-- Short summary or background information -->
+
 
 ## Whiteboard
 
-<!-- Photo of your whiteboard -->
+![Whiteboard](../assets/Challenge16.jpg)
 
 ## Challenge
 
-<!-- Description of the challenge -->
+Create a function called fizzBuzzTree that takes in the root node of a tree, traverses it, and modifies the values based on what they are divisible by.
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-
-## API
-
-<!-- Description of each method publicly available in your implementation --
+I decided to modify the tree in place and then return the root node. 
+Big O is O(n) space is O(1) because I never create any variables
