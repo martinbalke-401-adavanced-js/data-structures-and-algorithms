@@ -5,7 +5,7 @@
 -  [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/15)
 -   [Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
 
-<!-- Short summary or background information -->
+Code Challenge 19. Implementing insertion sort.
 
 ## Whiteboard / Drawing
 
@@ -13,12 +13,16 @@
 
 ## Challenge
 
-<!-- Description of the challenge -->
+Create a function called insertionSort which takes in an array and returns a sorted array.
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I went with a sorting in place methodology. Where I don't need to create any extra variables besides a temp in order to return a sorted array.
+
+Time O(n2) Because we are iterating over the whole array and then decrementing over the whole array I believe this is the correct big O
+
+Space 0(n)
 
 ## API
 
-<!-- Description of each method publicly available in your implementation -->
+`insertionSort(arr)`-> `returns {Array} - sorted array` 
