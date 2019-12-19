@@ -9,7 +9,7 @@ Code Challenge 19. Implementing insertion sort.
 
 ## Whiteboard / Drawing
 
-<!-- Photo of your whiteboard or drawing -->
+![Drawing](../assets/code-challenge-19.jpg)
 
 ## Challenge
 
