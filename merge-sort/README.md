@@ -2,7 +2,7 @@
 
 ## Links
 
--  [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/15)
+-  [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/16)
 -   [Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
 
 Code challenge 20 implementing merge-sort
