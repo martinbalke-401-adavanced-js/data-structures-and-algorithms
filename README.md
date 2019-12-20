@@ -29,3 +29,12 @@
 
 ### Multi Bracket Validation
 [Readme Link](./multiBracketValidation/README.md)
+
+### FizzBuzz Tree
+[Readme Link](./fizzBuzzTree/README.md)
+
+### Insertion Sort
+[Readme Link](./insertion-sort/README.md)
+
+### Merge Sort
+[Readme Link](./merge-sort/README.md)
