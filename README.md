@@ -38,3 +38,6 @@
 
 ### Merge Sort
 [Readme Link](./merge-sort/README.md)
+
+### Quick Sort
+[Readme Link](./quick-sort/README.md)
