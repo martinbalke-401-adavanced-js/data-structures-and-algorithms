@@ -41,3 +41,6 @@
 
 ### Quick Sort
 [Readme Link](./quick-sort/README.md)
+
+### Repeated Word
+[Readme Link](./repeated-word/README.md)
