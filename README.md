@@ -44,3 +44,6 @@
 
 ### Repeated Word
 [Readme Link](./repeated-word/README.md)
+
+### Hash Table
+[Readme Link](./hashtable/README.md)
