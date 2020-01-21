@@ -1,5 +1,8 @@
 # Hashtables
 
+[PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/19)
+[Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
+
 
 ## Challenge
 
