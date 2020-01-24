@@ -21,7 +21,7 @@ class BinaryTree {
     //Traverse the left side and then the right 
     if(root.left !== null) this.preOrder(root.left);
     if(root.right !== null) this.preOrder(root.right);
-    console.log(this.values);
+    return this.values;
   }
   //Inorder prints left<-root<-right
   inOrder(root) {

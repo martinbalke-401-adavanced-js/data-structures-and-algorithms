@@ -47,3 +47,7 @@
 
 ### Hash Table
 [Readme Link](./hashtable/README.md)
+
+
+### Tree Intersection
+[Readme Link](./tree-intersection/README.md)
