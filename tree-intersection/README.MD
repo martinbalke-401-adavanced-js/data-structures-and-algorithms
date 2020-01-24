@@ -2,8 +2,8 @@
 
 ## Links
 
--   Link to Pull Request
--   Link to Travis
+  [Pr](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/20)
+-   [Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/jobs/279599979)
 
 <!-- Short summary or background information -->
 
