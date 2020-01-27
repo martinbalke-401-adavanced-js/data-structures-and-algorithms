@@ -2,8 +2,10 @@
 
 ## Links
 
--   Link to Pull Request
--   Link to Travis
+-   [PR](https://github.com/martinbalke-401-adavanced-js/data-structures-and-algorithms/pull/21)
+
+
+-   [Travis](https://www.travis-ci.com/martinbalke-401-adavanced-js/data-structures-and-algorithms)
 
 
 ## Whiteboard / Drawing
