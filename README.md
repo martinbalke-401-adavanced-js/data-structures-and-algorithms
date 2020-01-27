@@ -51,3 +51,6 @@
 
 ### Tree Intersection
 [Readme Link](./tree-intersection/README.md)
+
+### Tree Intersection
+[Readme Link](./left-join/README.md)
